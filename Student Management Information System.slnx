@@ -1,8 +1,4 @@
 <Solution>
-  <Configurations>
-    <BuildType Name="Default" />
-    <Platform Name="Default" />
-  </Configurations>
   <Folder Name="/Code/">
     <File Path="AuditTrigger.sql" />
     <File Path="ReportingView.sql" />
@@ -28,4 +24,5 @@
     <File Path="Insert.sql" />
     <File Path="Tables.sql" />
   </Folder>
+  <Project Path="SMIS/SMIS.csproj" Id="5925225f-13cf-4394-95cf-dcbd2cbfa157" />
 </Solution>
