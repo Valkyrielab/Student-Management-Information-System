@@ -3,4 +3,29 @@
     <BuildType Name="Default" />
     <Platform Name="Default" />
   </Configurations>
+  <Folder Name="/Code/">
+    <File Path="AuditTrigger.sql" />
+    <File Path="ReportingView.sql" />
+    <File Path="Safe enrolment + Status update.sql" />
+    <File Path="StoreedProcedure.sql" />
+  </Folder>
+  <Folder Name="/Database/">
+    <File Path="StudentManagement.sql" />
+  </Folder>
+  <Folder Name="/Queries/">
+    <File Path="1.sql" />
+    <File Path="10.sql" />
+    <File Path="2.sql" />
+    <File Path="3.sql" />
+    <File Path="4.sql" />
+    <File Path="5.sql" />
+    <File Path="6.sql" />
+    <File Path="7.sql" />
+    <File Path="8.sql" />
+    <File Path="9.sql" />
+  </Folder>
+  <Folder Name="/Table/">
+    <File Path="Insert.sql" />
+    <File Path="Tables.sql" />
+  </Folder>
 </Solution>

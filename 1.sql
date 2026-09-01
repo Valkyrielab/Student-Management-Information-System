@@ -1,0 +1,4 @@
+USE StudentManagementDB
+GO
+
+SELECT * FROM STUDENT;

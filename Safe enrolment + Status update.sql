@@ -1,0 +1,21 @@
+USE StudentManagementDB
+GO
+
+BEGIN TRY
+    BEGIN TRANSACTION;
+
+    INSERT INTO ENROLMENT (StudentID, CourseID, EnrolmentDate, FinalMark)
+    VALUES (1, 2, GETDATE(), NULL);
+
+    UPDATE STUDENT
+    SET Status = 'Active'
+    WHERE StudentID = 1;
+
+    COMMIT TRANSACTION;
+END TRY
+BEGIN CATCH
+    IF @@TRANCOUNT > 0
+        ROLLBACK TRANSACTION;
+
+    THROW;
+END CATCH;
